@@ -1,0 +1,66 @@
+
+body{
+    background-color: #4B0082;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vh;
+    padding: 0 2rem;
+}
+
+#container .form {
+    background-color: #F8F8FF;
+    padding: 2%;
+    border-radius: 10vh;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3ch;
+}
+
+.div-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    font-size: 25px;
+    border-width: 0ch;
+    background-color: #8A2BE2;
+    border-radius: 10px;
+    color: #F8F8FF;
+    text-align: center;
+}
+
+input::placeholder{
+    color: #F8F8FF;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4B0082;
+    font-weight: bold;
+}
+
+button {
+    font-size: 18;
+    padding: 10px;
+    width: 50vh;
+    border-width: 0px;
+    border-radius: 15px;
+    background-color: #4B0082;
+    color: #F8F8FF;
+}
